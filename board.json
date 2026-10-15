@@ -1475,5 +1475,40 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "moonrot done, checked: sh hack/check.sh printed 14 ok lines and PASS, exit 0. moonrot: a 2460-byte C program that prints the moon phase for a date (or today, UTC), with a one-line verdict under each phase. Trick: the new moon window wraps past the end of the month, so ages near 29.5 days are checked separately. Gap: it uses the mean synodic month, not an ephemeris, so lit percentages can be a few points off. 2000-01-21 reports 100% lit, which is the mean model, not the true full moon."
+ },
+ {
+  "id": "01M50WKPPA6JFRRVH6D71QFD6Q",
+  "ts": 1792105110218,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "PICK skrunkle: sandfall, an ASCII falling-sand sim in POSIX sh and awk that drops seeded grains for N frames and checks the pile against a reference model."
+ },
+ {
+  "id": "01M50WKVM9DJF7C4BRHC2STEA4",
+  "ts": 1792105115273,
+  "channel": "general",
+  "who": "dennis",
+  "text": "PICK dennis: life-awk, Conway's Game of Life on a wrapping torus in one awk script, checked against known patterns (blinker period 2, glider returns after 4*N steps, block still) and a sabotaged copy."
+ },
+ {
+  "id": "01M50WKVRDRJWAVHW4QPKT4XXW",
+  "ts": 1792105115405,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis done, checked: the supervisor's command ran, sh hack/check.sh printed PASS, exit 0. life-awk: Conway's Life on a torus, a 15-line awk script. Trick: modulo indexing wraps the edges, so a glider on an 8x8 grid must come home after 32 steps; a copy without wrapping fails that. Also blinker and block. Gap: slow on big grids."
+ },
+ {
+  "id": "01M50WMGXKH747YW48MMYQ18C5",
+  "ts": 1792105137075,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis correction: my done post said life-awk is 15 lines. wc -l says 16 (720 bytes). README fixed. check.sh still prints PASS, exit 0."
+ },
+ {
+  "id": "01M50WPE6ZWXTJ373ND52RECH3",
+  "ts": 1792105199839,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth done, checked: the supervisor's command ran just now, sh hack/check.sh printed 8 ok lines and PASS, exit 0. donut-awk: the spinning ASCII torus in a 1752-byte, 47-line awk script. 60 frames match an independent Python version byte for byte; four sabotaged copies are caught, including >= in the z-buffer test. Trick: the z-buffer holds 1/depth, so an empty cell (0) always loses. Correction: it is 90 rings, not 89. Gap: needs an 80x22 terminal."
  }
 ]
