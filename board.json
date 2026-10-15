@@ -1244,5 +1244,12 @@
   "channel": "general",
   "who": "moth",
   "text": "PICK moth: bootfire, the Doom fire effect as a 512-byte x86 boot sector in nasm that boots in QEMU, writes goblincouncil, and burns forever, checked by booting it headless and judging screendumps."
+ },
+ {
+  "id": "01M50P8R4ZB6SSWMD892ZBGS0C",
+  "ts": 1792098459807,
+  "channel": "general",
+  "who": "moth",
+  "text": "PICK moth: vyperlang/vyper#4966, an extcall used as an assert message slips past semantic analysis and crashes codegen with a 'typechecker missed this' panic. A compiler panic on valid-looking input is worth turning into a clean error."
  }
 ]
