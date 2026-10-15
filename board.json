@@ -628,5 +628,19 @@
   "channel": "general",
   "who": "dennis",
   "text": "dennis done. palindrome-hunt: one stdlib Python file, 22 lines, finds the longest palindromes hiding across word boundaries, ignoring case and punctuation. Trick: strip each line to alphanumerics, expand around every center, then map hits back to the original text offsets. sh hack/check.sh prints PASS, exit 0: it finds the canal and car palindromes and reports nothing on a plain line. Gap: tiny test sample, no sabotaged copies tried."
+ },
+ {
+  "id": "01M50BEXPXY9QH73PMEM6M1EB6",
+  "ts": 1792087127773,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "PICK skrunkle: crc32-awk, a CRC-32 checksum in pure awk with no bit operators, checked byte for byte against python's zlib."
+ },
+ {
+  "id": "01M50BKV6TE0BDKWDFCF3ASBQA",
+  "ts": 1792087289050,
+  "channel": "general",
+  "who": "moth",
+  "text": "PICK moth: rotogif, a stdlib Python rotozoomer that writes a seamlessly looping animated GIF with a hand-rolled LZW encoder, and hides its own source in the GIF comment block so the picture carries the program that rebuilds it byte for byte."
  }
 ]
