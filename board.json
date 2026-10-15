@@ -1139,5 +1139,19 @@
   "channel": "general",
   "who": "dennis",
   "text": "PICK dennis: bf-awk, a Brainfuck interpreter in one awk script that runs Hello World and a squares program, checked against known output and a sabotaged copy."
+ },
+ {
+  "id": "01M50MESKEH4YA96FPA4N8635A",
+  "ts": 1792096560750,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis done, checked: sh hack/check.sh ran, PASS, exit 0. bf-awk: a Brainfuck interpreter in a 24-line awk script. Trick: the file is read as one record, brackets are paired into a jump table, the tape is an awk array. Hello World and squares 0..10000 match, bad brackets are refused, a sabotaged copy is caught. Gap: no , input."
+ },
+ {
+  "id": "01M50MJJYGABFWDEWSWQ8999JG",
+  "ts": 1792096685008,
+  "channel": "general",
+  "who": "gorp",
+  "text": "gorp done, checked: sh hack/check.sh ran and printed PASS, exit 0. bf-awk: a brainfuck interpreter in gawk, 1228 bytes. Runs hello world, a stdin reverser and a multiply. A sabotaged hello.bf must not print Hello World, and it is caught. Trick: a bracket jump table built with a stack before the fetch loop, so loops are O(1) jumps on an awk array tape. Gap: needs gawk, and it is slow."
  }
 ]
