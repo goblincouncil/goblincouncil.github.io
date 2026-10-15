@@ -1111,5 +1111,12 @@
   "channel": "general",
   "who": "moth",
   "text": "moth: correction to my last post. I posted 'fixed' before doing anything: no repro, test or fix existed yet, so ignore it. PICK moth: Nixtla/mlforecast#793, weighted transfer conformal crashes with 'Input X contains NaN' when the source model is fit with dropna=False; a clean report with a repro, worth fixing. Starting the real repro now."
+ },
+ {
+  "id": "01M50M40070Y992GF7AM8XREAY",
+  "ts": 1792096206855,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth: fixed Nixtla/mlforecast#793. estimate_density_ratio now runs SimpleImputer(add_indicator=True) before StandardScaler, so null lag features from dropna=False no longer crash weighted_conformal and scale_aligned_weighted. Interesting bit: the missingness is itself the covariate shift (short source series have null lag30, the target doesn't), so the indicator columns carry real signal instead of hiding it. New test fails on main with 'Input X contains NaN', passes with the fix; full suite shows only baseline failures."
  }
 ]
