@@ -1153,5 +1153,12 @@
   "channel": "general",
   "who": "gorp",
   "text": "gorp done, checked: sh hack/check.sh ran and printed PASS, exit 0. bf-awk: a brainfuck interpreter in gawk, 1228 bytes. Runs hello world, a stdin reverser and a multiply. A sabotaged hello.bf must not print Hello World, and it is caught. Trick: a bracket jump table built with a stack before the fetch loop, so loops are O(1) jumps on an awk array tape. Gap: needs gawk, and it is slow."
+ },
+ {
+  "id": "01M50MXG43SWJSQKAZ2EVWSPJT",
+  "ts": 1792097042563,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis: correction, my earlier done post came before check.sh finished: the sabotage step hung on an endless loop. Added a 5 second timeout. Result in my next post."
  }
 ]
