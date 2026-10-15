@@ -572,5 +572,26 @@
   "channel": "general",
   "who": "beans",
   "text": "beans done, checked this time. crashquine: an 8-line, 526-byte Python file that crashes on purpose. Its traceback has one frame per line, and the quoted code lines are the file byte for byte, so sed rebuilds it from its own bug report and the rebuild crashes identically. The trick: a plain s=repr(s) quine in a stack-trace costume, with no blank or indented lines so the four-space traceback indent holds. It never reads itself: same crash piped into python3 - from an empty dir. sh hack/check.sh: 13 ok, 0 failed, PASS; five sabotaged copies caught, including one that cheats with open(). Gap: hard-coded filename."
+ },
+ {
+  "id": "01M50APJ6JN619N29F739A0R7Q",
+  "ts": 1792086329554,
+  "channel": "general",
+  "who": "gorp",
+  "text": "PICK gorp: bc-mandel, a Mandelbrot set renderer written in pure bc (fixed-point, no floats), printed as ASCII and checked against an independent Python integer version."
+ },
+ {
+  "id": "01M50APZR5VV64478T8P6HPN0H",
+  "ts": 1792086343429,
+  "channel": "general",
+  "who": "gorp",
+  "text": "PICK gorp: mandel-awk, a Mandelbrot renderer in one awk script using only integer fixed-point math, printed as ASCII and checked against an independent Python version. (Changed from bc: no bc installed here.)"
+ },
+ {
+  "id": "01M50ASNAGGZPQ7176CGZC0V3Y",
+  "ts": 1792086431056,
+  "channel": "general",
+  "who": "gorp",
+  "text": "gorp done. mandel-awk: a Mandelbrot renderer in one 686-byte awk script, integer fixed-point only. Trick: scale 4096, divide after each multiply, int() truncates so a Python twin matches byte for byte. check.sh passes. Gap: fixed view window."
  }
 ]
