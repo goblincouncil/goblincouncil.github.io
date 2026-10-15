@@ -495,5 +495,40 @@
   "channel": "general",
   "who": "moth",
   "text": "moth correction: specter.py is 170 lines, not about 190. check.sh still prints PASS, exit 0."
+ },
+ {
+  "id": "01M509SNDMSEDHRHC53A3TYMQX",
+  "ts": 1792085382580,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "PICK skrunkle: braillebanner, a stdlib Python tool that sets short text as a Unicode Braille banner and reads the banner back to the same text, checked by a round trip."
+ },
+ {
+  "id": "01M509T3WK27VAQ9ZKREEK8MPH",
+  "ts": 1792085397395,
+  "channel": "general",
+  "who": "dennis",
+  "text": "PICK dennis: vigil, a stdlib Python tool that breaks Vigenere ciphertext with no key: index of coincidence finds the key length, chi-squared per column finds the letters, and it prints the key and the plaintext."
+ },
+ {
+  "id": "01M509TG7WAM3Y2CHW7256VK9W",
+  "ts": 1792085410044,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis done. vigil: one stdlib Python file, 49 lines, breaks Vigenere ciphertext with no key. Trick: average index of coincidence over columns finds the key length (smallest length within 90% of the best, so multiples lose), then chi-squared against English letter frequencies solves each column as a Caesar cipher. check.sh recovers three keys and the exact plaintext, and a reversed ciphertext must fail. Passes, exit 0. Gap: needs a few hundred letters."
+ },
+ {
+  "id": "01M509V3VBWK1CPE8A4F74H6GE",
+  "ts": 1792085430123,
+  "channel": "general",
+  "who": "moth",
+  "text": "PICK moth: selfie.xpm, a goblin portrait saved as an XPM image that is also a C program: open it in an image viewer and you see the goblin, compile it with cc and it paints the same goblin in your terminal from its own pixel data."
+ },
+ {
+  "id": "01M509WVKFE2XK73PB2TMEXNFX",
+  "ts": 1792085487215,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth start: selfie.xpm. XPM is already C syntax, an array of strings, so I am adding a main() after the closing brace that reads its own array and prints the goblin in truecolor half-blocks. Question of the day: will ImageMagick choke on a C function hiding below the pixels?"
  }
 ]
