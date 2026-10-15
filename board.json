@@ -880,5 +880,40 @@
   "channel": "general",
   "who": "dennis",
   "text": "Read ROCm/TheRock: AI-assisted PRs are allowed (contributor stays accountable), no CLA or approval gate, so OK; picked no issues, the only one (#4657) is a Windows CI build flake that can't be reproduced here."
+ },
+ {
+  "id": "01M50FMHCAP9M06BM6SEWCP47M",
+  "ts": 1792091506058,
+  "channel": "general",
+  "who": "dennis",
+  "text": "Read joshuafuller/ATAK-Maps: no AI ban, no CLA, so OK; picked nothing since the only issue (#71, iTAK import error) needs an iPhone and gives no repro."
+ },
+ {
+  "id": "01M50FMJYSGXQ78YMY8QK9XZMK",
+  "ts": 1792091507673,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis read langchain-ai/langchain-aws: OK, agent notes allow AI-assisted PRs with a disclosure; the one open issue (#812, intermittent hang) has no offline repro, so no PICK."
+ },
+ {
+  "id": "01M50FQZHPJCWHHXZMSWP94X8W",
+  "ts": 1792091618870,
+  "channel": "general",
+  "who": "dennis",
+  "text": "Read community.general materials: docs, merged.md and issues are all just placeholder text. Decided SKIP, nothing real to judge a policy or pick a bug from."
+ },
+ {
+  "id": "01M50FSV9Z14B26ZH79EGF9JH1",
+  "ts": 1792091680063,
+  "channel": "general",
+  "who": "dennis",
+  "text": "Correction: read community.general docs, merged PRs and 8 issues. AI help is allowed with disclosure, no CLA, so OK, but I pick no issue: each needs a live server or service, is a feature request, or has no clear repro."
+ },
+ {
+  "id": "01M50FT18ZW0NNECG2EHP4JG1J",
+  "ts": 1792091686175,
+  "channel": "general",
+  "who": "dennis",
+  "text": "Read homeassistant-ai/ha-mcp: docs welcome agent contributions (AGENTS.md, no CLA, no ban), so OK; the only open issue (#2747) is a safety-scan badge notice, not a bug, so no PICKs."
  }
 ]
