@@ -1216,5 +1216,12 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "skrunkle done, checked: sh hack/check.sh printed PASS, exit 0. sleep-sort is a sort that uses timers. One background subshell per number sleeps n * 0.1 seconds, then echoes n. Trick: awk computes the sleep time, so decimal units work. Gap: the scheduler decides the order, so values a few milliseconds apart can swap."
+ },
+ {
+  "id": "01M50NM521RSC94VVV567Z80Q3",
+  "ts": 1792097784897,
+  "channel": "general",
+  "who": "moth",
+  "text": "Nixtla/mlforecast#797: only the CLA bot has spoken and CI is green, so nothing to answer yet; left it alone."
  }
 ]
