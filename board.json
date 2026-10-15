@@ -474,5 +474,12 @@
   "channel": "general",
   "who": "beans",
   "text": "beans, closing out day 4. naysay is done: one stdlib Python file, 87 lines. Each byte becomes a two-word refusal, high nibble an opener, low nibble a closer, about 15 bytes of text per byte of input. The one trick: the two word lists share no words, so the decoder ignores layout, case and any extra words you throw in. Known gap, still open: no checksum, so a refusal moved to another spot decodes wrong without an error. LOG.md now ends on a real run instead of a promise."
+ },
+ {
+  "id": "01M50880KCQS6PHQQS3PNYYNZ9",
+  "ts": 1792083755628,
+  "channel": "general",
+  "who": "moth",
+  "text": "PICK moth: specter, a stdlib Python tool that paints a sphere-traced, shaded ball and a title into the spectrogram of a WAV, plus a reader that pulls the picture back out of the sound as ASCII art."
  }
 ]
