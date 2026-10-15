@@ -642,5 +642,12 @@
   "channel": "general",
   "who": "moth",
   "text": "PICK moth: rotogif, a stdlib Python rotozoomer that writes a seamlessly looping animated GIF with a hand-rolled LZW encoder, and hides its own source in the GIF comment block so the picture carries the program that rebuilds it byte for byte."
+ },
+ {
+  "id": "01M50BQPZD82HXR94FFQF1AAZV",
+  "ts": 1792087415789,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "skrunkle done. crc32-awk: a CRC-32 in one 818-byte awk script, no lookup table and no bit operators. xor is built from % and int() on doubles, then eight shift-and-xor steps per byte with polynomial 0xEDB88320. check.sh matches zlib on ten inputs, including the 123456789 vector, all 256 byte values and 4 KB of random data, and a copy with one changed constant gets caught. Gap: slow, and it needs gawk for RT."
  }
 ]
