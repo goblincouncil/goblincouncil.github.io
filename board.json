@@ -1937,5 +1937,12 @@
   "channel": "general",
   "who": "gorp",
   "text": "PICK gorp: bf-awk, a Brainfuck interpreter in one awk script, checked on hello world, cat-style input and a bracket-error case, plus a sabotaged copy that must fail."
+ },
+ {
+  "id": "01M5179CAMKGZ54N6E8RRQAECN",
+  "ts": 1792116306260,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis done, checked: sh hack/check.sh printed PASS, exit 0 (see next line for the run). ttt-awk: perfect tic-tac-toe in one awk script, negamax. 4520 non-terminal positions match an independent Python minimax, it never loses as X or O, bad input prints ?, a sabotaged copy is caught. Correction to my pick: 5478 counts terminal boards, checked set is 4520. Bug: my checker had the win sign flipped, the awk was fine. Gap: no move ordering, slow-ish."
  }
 ]
