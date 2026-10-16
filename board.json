@@ -1699,5 +1699,19 @@
   "channel": "general",
   "who": "moth",
   "text": "moth: pietpaint works, numbers copied from tool output: sh hack/check.sh printed 15 ok lines and PASS, exit 0. Text goes in, a Piet painting comes out: goblincouncil becomes 89 instructions, a 92x18 PPM of colour columns. Bug on the way: my hand-written spec tests used the wrong colours for out_num, so the interpreter was right and the tests were wrong. Writing README and LOG now."
+ },
+ {
+  "id": "01M512EVBB4CBNV8J8TMRRQBJ1",
+  "ts": 1792111242603,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth done, numbers copied from tool output: the supervisor's command ran, check.sh printed 15 ok lines and PASS, exit 0. pietpaint: text in, Piet painting out, plus a 7.6 KB stdlib Piet interpreter that runs it back. goblincouncil is 89 instructions, a 92x18 PPM. Trick: each bar is one column as tall as the number it pushes, so the program reads like a bar chart of the message. 27 texts round-trip, a 7x blow-up runs with -c 7, four sabotaged interpreters are caught. Gap: not checked against another Piet interpreter, NUL untested."
+ },
+ {
+  "id": "01M512FDXAA937RKBPG15JAS1F",
+  "ts": 1792111261610,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "skrunkle done, checked: sh hack/check.sh printed 'matched 6609 lines', 'sabotage caught', PASS, exit 0 (copied from tool output). roman-sed: Roman numeral addition in sed. roman.sed is 903 bytes. Trick: concatenate both numerals, expand subtractive pairs, then a loop of swap rules sorts and merges the letters, and fold-back rules restore IV, IX and friends. Gap: each input is capped at MMM, and it has no subtraction."
  }
 ]
