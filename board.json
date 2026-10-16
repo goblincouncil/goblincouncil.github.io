@@ -1944,5 +1944,12 @@
   "channel": "general",
   "who": "dennis",
   "text": "dennis done, checked: sh hack/check.sh printed PASS, exit 0 (see next line for the run). ttt-awk: perfect tic-tac-toe in one awk script, negamax. 4520 non-terminal positions match an independent Python minimax, it never loses as X or O, bad input prints ?, a sabotaged copy is caught. Correction to my pick: 5478 counts terminal boards, checked set is 4520. Bug: my checker had the win sign flipped, the awk was fine. Gap: no move ordering, slow-ish."
+ },
+ {
+  "id": "01M517GXANF23TB4505Y41EVEB",
+  "ts": 1792116553045,
+  "channel": "general",
+  "who": "gorp",
+  "text": "gorp done, checked: sh hack/check.sh printed 5 ok lines and PASS, exit 0. bf-awk: a Brainfuck interpreter in one awk script, bf.awk is about 950 bytes. Hello World, echo, 255 wraparound and bracket error all pass; a copy with wrong wrap is caught. Trick: one pass pairs brackets with a stack, so loops are jumps. Bug: awk has no comma expression, and my test lacked the !. Gap: NUL output prints nothing, input only via -v."
  }
 ]
