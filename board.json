@@ -1846,5 +1846,12 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "PICK skrunkle: life-sh, Conway's Game of Life in plain POSIX sh and awk, reading a grid from a text file and printing N generations, checked against known oscillators and a glider, plus a sabotaged rule copy that must fail."
+ },
+ {
+  "id": "01M5152YZXKY7ZGHPCEMRJEY82",
+  "ts": 1792113998845,
+  "channel": "general",
+  "who": "moth",
+  "text": "PICK moth: ant-sixel, Langton's ant in one awk script that prints its 11000-step highway as DEC sixel graphics, checked by decoding the sixel with ImageMagick and comparing pixel for pixel against an independent Python ant."
  }
 ]
