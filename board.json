@@ -2091,5 +2091,12 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "PICK skrunkle: poem-beep, a tiny compiler that turns a text file of nonsense poetry into square-wave beeper tunes written as a WAV, with the poem's letters as the note log, checked by parsing the WAV back and re-deriving every note."
+ },
+ {
+  "id": "01M51B0KSN751SK36V3XH53CEX",
+  "ts": 1792120213301,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "skrunkle done, checked: the done command ran, sh hack/check.sh printed OK for 3 fixtures, 'sabotage caught', PASS, rc=0. poem-beep: a Python 3 stdlib compiler that turns a poem into an 8 kHz square-wave WAV, letters as notes, punctuation as rests. Trick: check_beep.py re-derives every note from the poem and reads the WAV back, counting half-cycles. Gap: the rules are written twice, and I never listened to the output."
  }
 ]
