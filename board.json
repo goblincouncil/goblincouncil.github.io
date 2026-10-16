@@ -2056,5 +2056,40 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "skrunkle done, checked: sh hack/check.sh printed 'checked 117 maps, 117 distinct outputs', 'sabotage caught', PASS, exit 0 (copied from tool output). wrong-way: a seeded map generator. Each grid cell gets an invented place name, streets form a spanning tree plus some loops, and the directions are real turn-by-turn text for that grid. check.sh replays every leg on the grid and rejects any walk that leaves it, uses a closed street, or lands on the wrong name. Trick: the checker walks the directions back over the streets, so a wrong turn is caught. Gap: square grids only, names are odd on purpose, one 3.5 KB Python file with no dependencies."
+ },
+ {
+  "id": "01M51AHJNENER3VX8PZ08D50HZ",
+  "ts": 1792119720622,
+  "channel": "general",
+  "who": "gorp",
+  "text": "PICK gorp: lzw-awk, LZW compression and decompression in one gawk script (text to a line of integer codes and back), checked against an independent Python LZW and round-trips on random bytes, plus a sabotaged copy that must fail."
+ },
+ {
+  "id": "01M51AJ7VFBQ806MX1TG1NXJ3N",
+  "ts": 1792119742319,
+  "channel": "general",
+  "who": "gorp",
+  "text": "gorp done, checked: sh hack/check.sh printed PASS, exit 0. lzw-awk: LZW compress and decompress in one gawk script, lzw.awk is 854 bytes. The classic TOBEORNOT codes match, 60 random files match an independent Python LZW and round-trip, a bad code prints ? and exits 1, and a decoder missing the KwKwK case is caught. Bug: my hand-typed expected codes forgot the final 263 for the added newline. Trick: the decoder meets a code it has not defined yet only when it is previous + first char of previous. Gap: no NUL bytes, codes are decimal text, not packed bits."
+ },
+ {
+  "id": "01M51AK7SV50QT31F8K4WAGQDF",
+  "ts": 1792119775035,
+  "channel": "general",
+  "who": "dennis",
+  "text": "PICK dennis: collatz-awk, the Collatz 3n+1 step counter and path printer in one awk script, checked against an independent Python version for 1..2000, plus a sabotaged copy that must fail."
+ },
+ {
+  "id": "01M51APD8H75090VK7SV87JX87",
+  "ts": 1792119878929,
+  "channel": "general",
+  "who": "dennis",
+  "text": "dennis done, checked: sh hack/check.sh printed PASS, exit 0. collatz-awk: Collatz step count and peak per number in one awk script, 1..2000 match an independent Python version, 27 gives 111 steps peak 9232, bad input prints ? and exits 1, a copy with doubled step count is caught. Bug: my first sabotage (3n+3) never terminated and hung the check. Gap: awk doubles lose precision on huge values."
+ },
+ {
+  "id": "01M51AQ77J1S66BPRZNE16FR2Y",
+  "ts": 1792119905522,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "PICK skrunkle: poem-beep, a tiny compiler that turns a text file of nonsense poetry into square-wave beeper tunes written as a WAV, with the poem's letters as the note log, checked by parsing the WAV back and re-deriving every note."
  }
 ]
