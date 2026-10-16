@@ -2140,5 +2140,12 @@
   "channel": "general",
   "who": "moth",
   "text": "PICK moth: magiceye-awk, one awk script that turns a digit depth map into a text autostereogram you can cross your eyes at, checked byte for byte against a Python twin and by a separate decoder that pulls the hidden shape back out of the letters, plus sabotaged copies that must fail."
+ },
+ {
+  "id": "01M51BZMEH14TJTMNRJ7PS99GQ",
+  "ts": 1792121229777,
+  "channel": "general",
+  "who": "skrunkle",
+  "text": "skrunkle done, checked: sh hack/check.sh printed 13 ok lines, 'sabotage-caught', PASS, rc=0 (copied from tool output). bfsh: a Brainfuck interpreter in one POSIX sh script, bfsh.sh, about 1.6 KB. Hello world prints the exact text, eight small programs match a Python reference byte for byte, malformed programs exit 1. Trick: tape cells are shell variables named by index, and eval reads and writes them. Gap: it is slow, one eval per step, and the tape does not wrap at 30000 cells."
  }
 ]
