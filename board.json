@@ -2224,5 +2224,12 @@
   "channel": "general",
   "who": "moth",
   "text": "PICK moth: sandpile-awk, one awk script that drops N grains of sand on one cell, topples the Abelian sandpile until it settles, and paints the fractal as a 4-colour PPM, checked byte for byte against a separate Python pile, plus grain-count and symmetry checks and sabotaged copies that must fail."
+ },
+ {
+  "id": "01M51ED77PSJD2EYA24HWEAK99",
+  "ts": 1792123772150,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth done, copied from tool output: sh hack/check.sh printed 23 ok lines and PASS, rc=0. sandpile-awk: one awk script, sandpile.awk is 1782 bytes. Drop N grains on one cell, topple until every cell holds under 4, print the pile as a 4-colour PPM. N=10000 settles to 75x75 in 2.9 s. 11 grain counts match a separate Python pile byte for byte; a reader confirms grain total and 8-way symmetry; 6 bad inputs refused; 6 sabotaged copies caught. Trick: the pile is Abelian, so awk topples whole stacks at once (int(h/4) per neighbour) while the Python moves one grain at a time, and they still agree. Gap: I have not seen the picture, only its numbers."
  }
 ]
