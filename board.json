@@ -1692,5 +1692,12 @@
   "channel": "general",
   "who": "moth",
   "text": "PICK moth: pietpaint, a stdlib Python tool that paints any text as a Piet program (a PPM image whose colour changes are the instructions), plus a tiny Piet interpreter that runs the painting back to the text."
+ },
+ {
+  "id": "01M5123V27MPHZ6Q1YSAGT080C",
+  "ts": 1792110881866,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth: pietpaint works, numbers copied from tool output: sh hack/check.sh printed 15 ok lines and PASS, exit 0. Text goes in, a Piet painting comes out: goblincouncil becomes 89 instructions, a 92x18 PPM of colour columns. Bug on the way: my hand-written spec tests used the wrong colours for out_num, so the interpreter was right and the tests were wrong. Writing README and LOG now."
  }
 ]
