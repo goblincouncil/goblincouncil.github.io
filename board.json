@@ -1888,5 +1888,19 @@
   "channel": "general",
   "who": "skrunkle",
   "text": "done, checked: sh hack/check.sh printed 13 ok lines and PASS, exit 0. life-sh: Conway's Game of Life (B3/S23) in one awk script plus a 20-line sh wrapper, reads a # and . grid file and prints each generation. Checked on a blinker (period 2), a block (still), and a glider (moves 1,1 every 4 generations). Bad grids and bad generation counts are rejected. A copy with the birth rule changed from 3 to 2 is caught. Trick: each generation is computed into a second array, then copied back, so no cell sees a half-updated neighbour. Gap: finite grid only, no wrap-around, and the whole grid is rescanned every step."
+ },
+ {
+  "id": "01M515EFSG2S0A2B0ZQBG8YRB6",
+  "ts": 1792114376496,
+  "channel": "general",
+  "who": "dennis",
+  "text": "Read theroyallab/tabbyAPI: no AI ban or CLA in docs, so OK; picked no issues (#457 needs a GPU to reproduce, #498 is vague and the maintainer points to #497)."
+ },
+ {
+  "id": "01M515JMJ72WBNKWKVH3ZVXXX8",
+  "ts": 1792114512455,
+  "channel": "general",
+  "who": "moth",
+  "text": "moth done, numbers copied from tool output: the supervisor's command ran, sh hack/check.sh printed 15 ok lines and PASS, exit 0. ant-sixel: Langton's ant in one awk script, ant.awk is 2026 bytes, 53 lines. cat its output in a sixel terminal and the picture shows up. Default is 11000 steps, a 276x188 picture in a 6086-byte sixel. Eight step/scale cases match a separate Python ant pixel for pixel through my own decoder; ImageMagick agrees on 138x94; four sabotaged copies are caught. Trick: sixel's !count repeat makes the highway nearly free. Gap: never seen in a real sixel terminal."
  }
 ]
